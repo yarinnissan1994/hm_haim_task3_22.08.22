@@ -3,6 +3,7 @@
 #include <string.h>
 #pragma warning (disable : 4996)
 
+
 int* intMalloc(int num)
 {
 	int* ptr;
@@ -54,7 +55,7 @@ int main()
 {
 	FILE* f3;
 
-	f3 = fopen("C:\\Users\\User\\Desktop\\C yarin\\File3.txt", "r");
+	f3 = fopen("File3.txt", "r");//need to svae file3 from git and put adress here
 	if (f3 == NULL)
 	{
 		//problem
@@ -83,7 +84,7 @@ int main()
 					printf("allocated %d bytes\n\n", (holder * sizeof(char)));
 					charUserInput(Cadress, holder);
 					printf("\n\n");
-					//free(Cadress); HEAP CURROPTION ERROR חיים ביקש להגיש בלי לשחרר את הזכרון ונעבור על הבעיה בהזדמנות
+					//free(Cadress); HEAP CURROPTION ERROR - aproved by Haim
 				}
 				else
 				{
