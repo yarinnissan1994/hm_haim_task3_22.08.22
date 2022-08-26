@@ -13,7 +13,7 @@ int* intMalloc(int num)
 char* charMalloc(char num)
 {
 	char* ptr;
-	ptr = malloc(sizeof(char) * num);
+	ptr = malloc(sizeof(char) * num * 4);
 	return ptr;
 }
 void intUserInput(int* adress, char num)
@@ -84,7 +84,7 @@ int main()
 					printf("allocated %d bytes\n\n", (holder * sizeof(char)));
 					charUserInput(Cadress, holder);
 					printf("\n\n");
-					//free(Cadress); HEAP CURROPTION ERROR - aproved by Haim
+					free(Cadress); //HEAP CURROPTION ERROR - aproved by Haim
 				}
 				else
 				{

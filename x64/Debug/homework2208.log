@@ -1,12 +1,12 @@
 ﻿  homework2208.c
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(37,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'int *'
 C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(38,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'int *'
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(82,13): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(82,13): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'char *'
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(83,13): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(83,13): message : consider using '%zd' in the format string
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(92,13): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(92,13): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(93,13): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(93,13): message : consider using '%zd' in the format string
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(39,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'int *'
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(83,13): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(83,13): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'char *'
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(84,13): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(84,13): message : consider using '%zd' in the format string
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(93,13): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(93,13): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(94,13): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\User\source\repos\homework2208\homework2208\homework2208.c(94,13): message : consider using '%zd' in the format string
   homework2208.vcxproj -> C:\Users\User\source\repos\homework2208\x64\Debug\homework2208.exe
