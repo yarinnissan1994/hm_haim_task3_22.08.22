@@ -13,7 +13,7 @@ int* intMalloc(int num)
 char* charMalloc(char num)
 {
 	char* ptr;
-	ptr = malloc(sizeof(char) * num * 4);
+	ptr = malloc(sizeof(char) * num * 4);//(multiply by 4 fixed "HEAP CORRUPTION" when freeing adress for now - still needs an explaination why)
 	return ptr;
 }
 void intUserInput(int* adress, char num)
@@ -55,7 +55,7 @@ int main()
 {
 	FILE* f3;
 
-	f3 = fopen("File3.txt", "r");//need to svae file3 from git and put adress here
+	f3 = fopen("File3.txt", "r");//need to svae file3 from git and put adress here or work with local file
 	if (f3 == NULL)
 	{
 		//problem
@@ -84,7 +84,7 @@ int main()
 					printf("allocated %d bytes\n\n", (holder * sizeof(char)));
 					charUserInput(Cadress, holder);
 					printf("\n\n");
-					free(Cadress); //HEAP CURROPTION ERROR - aproved by Haim
+					free(Cadress); //HEAP CORRUPTION ERROR - aproved by Haim (now fixed - see note in "charMalloc" function)
 				}
 				else
 				{
